@@ -42,7 +42,7 @@ Some references:
 *   Issue or PR (`GH-`): GH-1
 *   Issue or PR (fork): foo#1
 *   Issue or PR (project): remarkjs/remark#1
-*   Mention: @wooorm
+*   Mention: @extinctCoder
 
 Some links:
 
