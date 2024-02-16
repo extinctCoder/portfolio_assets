@@ -1,20 +1,13 @@
-+++
-layout = "hanten"
-published = "1258-25-22"
-+++
-
 ---
-layout = "hanten"
-published = "1258-25-22"
----
----
-title: Getting started with GitHub Desktop
+title: Using YAML frontmatter
+shortTitle: YAML frontmatter # Max 31 characters
+intro: 'You can use YAML frontmatter to define versioning, add metadata, and control the layout for articles.'
+product: '{% data reusables.contributing.product-note %}'
+versions:
+  feature: 'contributing'
 redirect_from:
-  - /articles/first-launch
-  - /articles/error-github-enterprise-version-is-too-old
-  - /articles/getting-started-with-github-for-windows
+  - /contributing/syntax-and-versioning-for-github-docs/using-yaml-frontmatter
 ---
-
 # Jupiter
 Assets for next_portfolio repo (Demo)
 
