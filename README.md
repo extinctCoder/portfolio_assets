@@ -52,6 +52,85 @@ Some links:
 *   Issue or PR comment: <https://github.com/remarkjs/remark-github/issues/3#issue-151160339>
 *   Mention: <https://github.com/ben-eb>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 this is image section
 ![alt text](image_one.webp "Title")
 end image
