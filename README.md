@@ -2,6 +2,12 @@
 Assets for next_portfolio repo (Demo)
 
 
+```js title="example.js"
+console.log("Hello World");
+```
+
+
+
 this is image section
 ![alt text](image_one.webp "Title")
 end image
