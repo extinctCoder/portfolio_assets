@@ -6,7 +6,31 @@ Assets for next_portfolio repo (Demo)
 console.log("Hello World");
 ```
 
+# GFM
 
+## Autolink literals
+
+www.example.com, https://example.com, and contact@example.com.
+
+## Footnote
+
+A note[^1]
+
+[^1]: Big note.
+
+## Strikethrough
+
+~one~ or ~~two~~ tildes.
+
+## Table
+
+| a | b  |  c |  d  |
+| - | :- | -: | :-: |
+
+## Tasklist
+
+* [ ] to do
+* [x] done
 
 this is image section
 ![alt text](image_one.webp "Title")
