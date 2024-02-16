@@ -98,6 +98,192 @@ puts markdown.to_html
 ```
 
 
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [-90,35],
+              [-90,30],
+              [-85,30],
+              [-85,35],
+              [-90,35]
+          ]
+        ]
+      }
+    }
+  ]
+}
+```
+
+```topojson
+{
+  "type": "Topology",
+  "transform": {
+    "scale": [0.0005000500050005, 0.00010001000100010001],
+    "translate": [100, 0]
+  },
+  "objects": {
+    "example": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Point",
+          "properties": {"prop0": "value0"},
+          "coordinates": [4000, 5000]
+        },
+        {
+          "type": "LineString",
+          "properties": {"prop0": "value0", "prop1": 0},
+          "arcs": [0]
+        },
+        {
+          "type": "Polygon",
+          "properties": {"prop0": "value0",
+            "prop1": {"this": "that"}
+          },
+          "arcs": [[1]]
+        }
+      ]
+    }
+  },
+  "arcs": [[[4000, 0], [1999, 9999], [2000, -9999], [2000, 9999]],[[0, 0], [0, 9999], [2000, 0], [0, -9999], [-2000, 0]]]
+}
+```
+
+```stl
+solid cube_corner
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 1.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+      vertex 0.0 1.0 0.0
+    endloop
+  endfacet
+  facet normal 0.577 0.577 0.577
+    outer loop
+      vertex 1.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+endsolid
+```
+
+**The Cauchy-Schwarz Inequality**
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+
+This sentence uses $\` and \`$ delimiters to show math inline:  $`\sqrt{3x-1}+(1+x)^2`$
+
+**The Cauchy-Schwarz Inequality**
+
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+
+This expression uses `\$` to display a dollar sign: $`\sqrt{\$4}`$
+
+To split <span>$</span>100 in half, we calculate $100/2$
+
+
+
+
+Reference type	Raw reference	Short link
+Issue or pull request URL	https://github.com/jlord/sheetsee.js/issues/26	#26
+# and issue or pull request number	#1	#1
+GH- and issue or pull request number	GH-1	GH-1
+Username/Repository# and issue or pull request number	extinctCoder/portfolio_assets#26	extinctCoder/portfolio_assets#21
+Organization_name/Repository# and issue or pull request number	github-linguist/linguist#4039	github-linguist/linguist#4039
+If you reference an issue, pull request, or discussion in a list, the reference will unfurl to show the title and state instead. For more information about task lists, see "About task lists."
+
+
+- [x] #1
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
