@@ -7,6 +7,13 @@ published = "1258-25-22"
 layout = "hanten"
 published = "1258-25-22"
 ---
+---
+title: Getting started with GitHub Desktop
+redirect_from:
+  - /articles/first-launch
+  - /articles/error-github-enterprise-version-is-too-old
+  - /articles/getting-started-with-github-for-windows
+---
 
 # Jupiter
 Assets for next_portfolio repo (Demo)
